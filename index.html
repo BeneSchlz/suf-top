@@ -7,26 +7,59 @@
     <link rel="stylesheet" href="./styles.css">
   </head>
   <body>
-    <div class="full-page">
-    <div class="container-right">
-         <img class="image1" src="./img/halie-west-25xggax4bSA-unsplash.jpg" alt="green-plants">
-         <div class="logo-container">
-         <img class="image2" src="./img/odin-lined.png" alt="odin-logo">
+    <div class="sidebar">
+      <div>
+        <img src="./img/odin-lined.png" alt="odinson" />
+        ODIN
       </div>
-      <div class="text">Odin</div>
-      <div class="img-rights">
-        <p>
-            Photo by 
-            <a href="https://unsplash.com/@haliewestphoto">
-            Halie West</a>
-            on 
-            <a href="https://unsplash.com/photos/green-leaf-plant-in-close-up-photography-25xggax4bSA">
-            Unsplash</a>
-        </p>
-        </div>
-      </div>
+  </div>
+
+  <div class="main-page">
+    <div class="info">
+      <p> This is not a real online service! You know you need something like
+        this in your life to help you relalize your deepest dreams. Sign Up
+        <em>now</em> to get started.</p>
+        <p>You <em>know</em> you want to.</p>
     </div>
-    <div class="container-left"></div>
+    <form action="post">
+      <fieldset>
+        <p>Let's do this!</p>
+          <div class="container">
+              <div class="form">
+                  <div class="input">
+                    <label for="fname">FIRST NAME</label>
+                    <input type="text" name="user_fname" id="fname" required />
+                  </div>
+                  <div class="input">
+                    <label for="email">EMAIL</label>
+                    <input type="email" name="user_email" id="email" required />
+                  </div>
+                  <div class="input">
+                    <label for="pass">PASSWORD</label>
+                    <input type="password" name="user_pass" id="pass" required />
+                  </div>
+              </div>
+              <div class="form">
+                  <div class="input">
+                    <label for="lname">LAST NAME</label>
+                    <input type="text" name="user_lname" id="lname" required />
+                  </div>
+                  <div class="input">
+                    <label for="tel">PHONE NUMBER</label>
+                    <input type="tel" name="user_tel" id="tel" required />
+                  </div>
+                  <div class="input">
+                    <label for="cpass">CONFIRM PASSWORD</label>
+                    <input type="password" name="user_cpass" id="cpass" required />
+                  </div>
+              </div>
+          </div>
+      </fieldset>
+      <div class="button">
+          <button type="submit">Create Account</button>
+          <p>Already have an account? <a href="">Log in</a></p>
+      </div>
+    </form>
   </div>
   </body>
 </html>
